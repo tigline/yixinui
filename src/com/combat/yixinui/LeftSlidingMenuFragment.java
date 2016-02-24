@@ -17,6 +17,9 @@ import android.view.ViewGroup;
  */
 public class LeftSlidingMenuFragment extends Fragment implements OnClickListener {
 
+	private View yixinBtnLayout;
+	private View circleBtnLayout;
+	private View settingBtnLayout;
 	
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -28,6 +31,14 @@ public class LeftSlidingMenuFragment extends Fragment implements OnClickListener
 					Bundle savedInstanceState) {
 		
 		View view = inflater.inflate(R.layout.main_left_fragment, container, false);
+		yixinBtnLayout = view.findViewById(R.id.yixinBtnLayout);
+		yixinBtnLayout.setOnClickListener(this);
+		circleBtnLayout = view.findViewById(R.id.circleBtnLayout);
+		circleBtnLayout.setOnClickListener(this);
+		settingBtnLayout = view.findViewById(R.id.settingBtnLayout);
+		settingBtnLayout.setOnClickListener(this);
+		
+		System.out.println();
 		return view;
 	}
 	/* (non-Javadoc)

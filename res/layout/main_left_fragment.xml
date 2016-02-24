@@ -42,7 +42,26 @@
             android:layout_marginRight="10.0dip" 
             android:layout_marginBottom="10.0dip" />
         
-        <include android:id="@+id/yixinBtnLayout" layout="@layout/toolbox_item_yixin" />"
+        <include android:id="@+id/yixinBtnLayout" layout="@layout/toolbox_item_yixin" />
+        <include android:id="@+id/circleBtnLayout" layout="@layout/toolbox_item_friend" />
+        <include android:id="@+id/settingBtnLayout" layout="@layout/toolbox_item_setting" />
+        
+        <View 
+            android:background="#ff1c1c1b" 
+            android:layout_width="match_parent"
+            android:layout_height="1.0px" />
+        
+        <TextView
+            android:textSize="12.0sp"
+            android:textColor="#ff999994"
+            android:gravity="center"
+            android:layout_gravity="bottom|center"
+            android:id="@+id/inviteFriendBtnLayout"
+            android:background="@drawable/tools_box_invite_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70.0dip"
+            android:text="@string/invite_friend" />"
     </LinearLayout>
     
 
