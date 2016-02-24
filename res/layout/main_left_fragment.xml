@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        
+        <com.combat.yixinui.RoundedImageView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/headImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25.0dip"
+            android:src="@drawable/head_default_yixin"
+            android:adjustViewBounds="true"
+            android:maxHeight="80dip"
+            android:maxWidth="80dip" />
+        
+        <TextView 
+            android:textSize="16.0sp"
+            android:textColor="#ffccccc6"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/nickNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10.0dip"
+            android:text="@string/account"/>
+        
+        <TextView 
+            android:textSize="12.0sp"
+            android:textColor="#ffa8a8a3" 
+            android:layout_gravity="center_horizontal" 
+            android:id="@+id/yixinCodeTextView" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_marginLeft="10.0dip" 
+            android:layout_marginTop="6.0dip" 
+            android:layout_marginRight="10.0dip" 
+            android:layout_marginBottom="10.0dip" />
+        
+        <include android:id="@+id/yixinBtnLayout" layout="@layout/toolbox_item_yixin" />"
+    </LinearLayout>
+    
+
+</ScrollView>
