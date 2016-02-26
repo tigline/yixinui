@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="21.0dip"
-        android:text="@string/setting"
+        android:text="@string/friend"
         android:layout_centerVertical="true"
         android:layout_centerInParent="true"/>
     
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10.0dip"
-        android:src="@drawable/tool_box_fragment_settings_icon"
+        android:src="@drawable/tool_box_friend_icon"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:contentDescription="@string/empty" />

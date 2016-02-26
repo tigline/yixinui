@@ -64,7 +64,7 @@ public class LeftSlidingMenuFragment extends Fragment implements OnClickListener
 			break;
 			
 		case R.id.settingBtnLayout:
-			newContent = new Fragment_friend();
+			newContent = new Fragment_setting();
 			yixinBtnLayout.setSelected(false);
 			circleBtnLayout.setSelected(false);
 			settingBtnLayout.setSelected(true);
